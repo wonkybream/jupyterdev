@@ -16,9 +16,9 @@ RUN groupadd wonky && \
 
 ENV LANG en_US.UTF-8
 
-# Copy start script
-COPY start-notebook.sh /usr/local/bin
-RUN chmod +x /usr/local/bin/start-notebook.sh
+# Copy scripts
+COPY start-notebook.sh start-project.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/*.sh
 
 # Create user
 USER wonky
