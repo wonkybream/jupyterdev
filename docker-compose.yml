@@ -6,4 +6,9 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: unless-stopped
+    volumes:
+      - home:/home/wonky
     network_mode: host
+
+volumes:
+  home:
