@@ -16,13 +16,9 @@ ENV LANG en_US.UTF-8
 COPY start-notebook.sh start-project.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/*.sh
 
+COPY ./requirements.txt .
+
 USER wonky
 WORKDIR /home/wonky
-
-COPY ./requirements.txt .
-RUN python3 -m venv .venv && \
-    . .venv/bin/activate && \
-    pip install -r requirements.txt && \
-    rm requirements.txt
 
 CMD ["start-notebook.sh"]
