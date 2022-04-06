@@ -8,7 +8,8 @@ services:
     restart: unless-stopped
     volumes:
       - home:/home/wonky
-    network_mode: host
+    ports:
+      - "8888:8888"
 
 volumes:
   home:
