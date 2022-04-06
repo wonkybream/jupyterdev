@@ -17,7 +17,7 @@ There's a docker volume attached, your projects are persisted there.
 2. Link and token for your environment is in logs
     ```shell
    docker-compose logs jupyterlab
-   
+
    jupyterlab_1  |     To access the server, open this file in a browser:
    jupyterlab_1  |         file:///home/wonky/.local/share/jupyter/runtime/jpserver-7-open.html
    jupyterlab_1  |     Or copy and paste one of these URLs:
@@ -28,3 +28,7 @@ There's a docker volume attached, your projects are persisted there.
     ```shell
    start-project.sh "myproject"
    ```
+
+## Configurations
+
+* https://jupyterlab-code-formatter.readthedocs.io/en/latest/how-to-use.html#changing-default-formatter
