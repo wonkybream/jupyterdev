@@ -29,6 +29,16 @@ There's a docker volume attached, your projects are persisted there.
    start-project.sh "myproject"
    ```
 
+**Installing package to same kernel your notebook uses**
+
+The `start-project.sh` script creates and installs a kernel with own virtualenv.  
+In order to install packages directly from notebook you have to use correct Python executable.
+
+```python
+import sys
+!{sys.executable} -m pip install cryptography
+```
+
 ## Configurations
 
 * https://jupyterlab-code-formatter.readthedocs.io/en/latest/how-to-use.html#changing-default-formatter
