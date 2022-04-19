@@ -1,4 +1,4 @@
-jupyterlab==3.3.2
+jupyterlab==3.3.4
 jupyterlab_theme_solarized_dark==2.0.1
 jupyterlab-git==0.36.0
 jupyterlab_code_formatter==1.4.10
