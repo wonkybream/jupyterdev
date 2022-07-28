@@ -1,5 +1,5 @@
 jupyterlab==3.4.3
-jupyterlab_theme_solarized_dark==2.0.1
+jupyterlab_theme_solarized_dark==2.1.0
 jupyterlab-git==0.37.1
 jupyterlab_code_formatter==1.5.1
 black==22.3.0
