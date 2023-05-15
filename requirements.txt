@@ -1,7 +1,7 @@
 jupyterlab==3.5.3
 jupyterlab_theme_solarized_dark==2.1.0
 jupyterlab-git==0.41.0
-jupyterlab_code_formatter==1.5.3
+jupyterlab_code_formatter==1.6.1
 black==23.1.0
 isort==5.12.0
 kotlin-jupyter-kernel==0.11.0.360
